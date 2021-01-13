@@ -1,0 +1,11 @@
+/node_modules/
+/package-lock.json/
+/gruntfile.js/
+/.sass-cache/
+\1.js
+/design/
+\gruntfile.js
+\package-lock.json
+\package.json
+/scss/
+/css/

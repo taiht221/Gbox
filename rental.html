@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Grunt</title>
+    <link rel="icon" href="https://www.vivosmartphone.vn/themes/vivo/favicon.ico">
+    <meta name="title" content="" />
+    <meta name="description" content="" />
+    <meta property="og:locale" content="vi" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Trang chủ" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:image" content="" />
+
+    <link rel="stylesheet" href="dest/stylelibs.min.css">
+    <link rel="stylesheet" href="dest/style.min.css">
+    <link rel="stylesheet" href="dest/fonts.css">
+</head>
+
+<body>
+    <div class="loading-screen">
+        <div class="loading">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <!-- header -->
+    <header class="header">
+        <!-- header top -->
+        <div class="header__logo">
+            <div class="container">
+                <div class="hamburger">
+                    <div></div>
+                </div>
+                <div class="logo">
+                    <a href="index.html"><i><img src="img/logo-main.svg" alt="logo"></i></a>
+                </div>
+                <div class="fb">
+                    <a href="facebook.com"><i><img src="img/icon-fb.svg" alt="fb-logo"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- header nav -->
+        <nav class="header__nav">
+            <div class="container">
+                <div class="left">
+                    <a href="about-us.html" class="hover-text">about</a>
+                </div>
+                <div class="mid">
+                    <ul>
+                        <li>
+                            <a href="studio.html" class="hover-text">studio</a>
+                        </li>
+                        <li>
+                            <a href="rental.html" class="hover-text">rental</a>
+                        </li>
+                        <li>
+                            <a href="cafe.html" class="hover-text">cafe</a>
+                        </li>
+                        <li>
+                            <a href="all-work.html" class="hover-text">work</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <a href="contact.html" class="hover-text">contact</a>
+                </div>
+            </div>
+        </nav>
+        <!-- menu mobile -->
+        <div class="menu-left">
+            <div class="bot">
+                <div class="right">
+                    <ul>
+                        <li><a href="about-us.html">about</a></li>
+                        <li><a href="studio.html">studio</a></li>
+                        <li><a href="cafe.html">cafe</a></li>
+                        <li><a href="all-work.html">work</a></li>
+                        <li><a href="rental.html">rental</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- main -->
+
+    <main class="rental">
+        <div class="container">
+            <div class="rental-wrap">
+                <div class="rental-name">
+                    <div class="num">
+                        <p>studio</p>
+                        <mark>01</mark>
+                    </div>
+                    <div class="text">
+                        <h1>
+                            rental
+                        </h1>
+                        <div class="dimensions">
+                            <h2>dimensions</h2>
+                            <p>87ft × 92ft × 31ft </p>
+                            <p>(26.52m × 28.04m × 9.45m)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="rental-infor">
+                    <h2>company details</h2>
+                    <div class="company-details">
+                        <div class="left">
+                            <div class="field">
+                                <label>Company Name:*</label>
+                                <input type="text" id="name">
+                            </div>
+                            <div class="field">
+                                <label>Contact Name:*</label>
+                                <input type="text" id="email">
+        
+                            </div>
+                            <div class="field">
+                                <label>Phone:*</label>
+                                <input type="text" id="phone">
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="field">
+                                <label>Email:*</label>
+                                <input type="text" id="address">
+                            </div>
+                            <div class="field">
+                                <label>Account payable contact :*</label>
+                                <input type="text" id="address">
+                            </div>
+                            <div class="field">
+                                <label>Message</label>
+                                <textarea id="content" rows="3" cols="50"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <h2>Booking details</h2>
+                    <div class="booking-details">
+                        <p>Studio:</p>
+                        <div class="list">
+                            <div class="num active">
+                                <mark>01</mark>
+                            </div>
+                            <div class="num">
+                                <mark>02</mark>
+                            </div>
+                            <div class="num">
+                                <mark>03</mark>
+                            </div>
+                            <div class="num">
+                                <mark>04</mark>
+                            </div>
+                        </div>
+                        <div class="booking-details__form">
+                            <div class="requi">
+                                <div class="field">
+                                    <label>Catering requirements:</label>
+                                    <textarea id="content" rows="3" cols="50"></textarea>
+                                </div>
+                                <div class="field">
+                                    <label>Lighting requirements:</label>
+                                    <textarea id="content" rows="3" cols="50"></textarea>
+                                   
+                                </div>
+                            </div>
+                            
+                            <div class="datepicker">
+                                <label>Booking Duration:</label>
+                                <div class="flatpickr input-group" data-id="strap">
+                                    <input type="text" placeholder="dd/mm/yy" data-input="" class="flatpickr-input" readonly="readonly">
+                                    
+                                    <a class="input-button" style="fill:#444" title="toggle" data-toggle="">
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 17 17"><g></g><path d="M14 2v-1h-3v1h-5v-1h-3v1h-3v15h17v-15h-3zM12 2h1v2h-1v-2zM4 2h1v2h-1v-2zM16 16h-15v-8.921h15v8.921zM1 6.079v-3.079h2v2h3v-2h5v2h3v-2h2v3.079h-15z" fill="#000000"></path></svg>
+                                    </a>
+                                </div>
+                                <i><img src="img/right-arrow.svg" alt="arrow"></i>
+                                <div class="flatpickr input-group" data-id="strap">
+                                    <input type="text" placeholder="dd/mm/yy" data-input="" class="flatpickr-input" readonly="readonly">
+                                    
+                                    <a class="input-button" style="fill:#444" title="toggle" data-toggle="">
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 17 17"><g></g><path d="M14 2v-1h-3v1h-5v-1h-3v1h-3v15h17v-15h-3zM12 2h1v2h-1v-2zM4 2h1v2h-1v-2zM16 16h-15v-8.921h15v8.921zM1 6.079v-3.079h2v2h3v-2h5v2h3v-2h2v3.079h-15z" fill="#000000"></path></svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label>Project Reference:</label>
+                                <input type="text" id="address">
+                            </div>
+                            <div class="field">
+                                <label>Where did you hear about us:</label>
+                                <input type="text" id="address">
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="book-now">
+                <a href="#">
+                    <span>submit</span>
+                </a>
+                <p>By submitting this form I agree to <br><b>GBox Studio’s</b>
+                     Terms & Conditions.</p>
+            </div>
+            
+        </div>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer__top">
+            <div class="container">
+                <div class="line"></div>
+
+                <address class="left col-md-6 col-sm-12">
+                    <h3>EMAIL</h3>
+                    <p>INFO@GOLDENBOXSTUDIOS.COM</p>
+                    <div class="phone-numer">
+                        <h3>tel</h3><a href="tel:+84 979 872 809">+84 979 872 809</a>
+                    </div>
+
+                </address>
+                <div class="right col-md-6 col-sm-12">
+                    <p>IF YOU HAVE ANY QUESTIONS,</p>
+                    <p>COMMENTS OR</p>
+                    <p>SUGGESTIONS, FEEL FREE TO EMAIL</p>
+                    <p>US OR SEND US A MESSAGE.</p>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="footer__bot">
+            <div class="container">
+                <address class="col-md-6 left col-sm-12">
+                    <h3>
+                        address
+                    </h3>
+                    <p>04 BAU CAT DISTRICT TAN BINH</p>
+                    <p>HO CHI MINH CITY</p>
+                </address>
+                <div class="right col-md-6 col-sm-12">
+                    <div class="field">
+                        <label>Your Name</label>
+                        <input type="text" id="name">
+                    </div>
+                    <div class="field">
+                        <label>Subject</label>
+                        <input type="text" id="email">
+
+                    </div>
+                    <div class="field">
+                        <label>Phone</label>
+                        <input type="text" id="phone">
+                    </div>
+                    <div class="field">
+                        <label>Message</label>
+                        <textarea id="content" rows="3" cols="50"></textarea>
+                    </div>
+                    <div class="field">
+                        <label>Email</label>
+                        <input type="text" id="address">
+                    </div>
+
+                    <a class="btn-send">
+                        Send
+                    </a>
+                </div>
+                <div class="end col-md-12">
+                    <a href="#" class="back-to-top"><i><img src="img/arrow-to-top.svg" alt="arrow"></i></a>
+                    <p>© 2018 GBOX STUDIO. All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="dest/jsmain.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
